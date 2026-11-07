@@ -36,7 +36,7 @@
 * **Given** The date and time for a game is in the future
 * **When** I enter information for that game's results and stats
 * **Then** The game's information in the database is not updated to match the inputted data
-* **And** the team manager is informed that the game has not happened yet
+* **And** the team manager is informed that the game has not happened yet.
 
 ---
 
