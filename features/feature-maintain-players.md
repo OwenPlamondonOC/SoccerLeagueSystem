@@ -7,7 +7,7 @@
 ---
 ## User Stories
 ### US-N.1: Create Player
-**As a** System Admin
+**As a** Team Manager
 **I want to** input the information of a new player
 **So that** the player is created in a team
 **Priority:** P1
@@ -15,7 +15,7 @@
 **Acceptance scenarios:** see ### US-N.1 under Acceptance Criteria
 
 ### US-N.2: Remove Player
-**As a** System Admin
+**As a** Team Manager
 **I want to** select an existing player for removal
 **So that** the team removes this player's information
 **Priority:** P1
@@ -23,7 +23,7 @@
 **Acceptance scenarios:** see ### US-N.2 under Acceptance Criteria
 
 ### US-N.3: Edit Player
-**As a** System Admin
+**As a** Team Manager
 **I want to** input new information for an existing player
 **So that** the information for that player is updated in the team
 **Priority:** P1
@@ -38,13 +38,13 @@
 
 ---
 ## Key Entities
-- **User**: System Admin; maintains most data for the players
+- **User**: Team Manager; maintains most data for the players
 - **Database**: information storage; tracks information including players and their information
 
 ---
 ## Acceptance Criteria
 ### US-N.1 - Add Player
-#### Scenario: Admin adds a new player to the team
+#### Scenario: Team Manager adds a new player to the team
 * **Given** I am prompted to enter information for the new player
 * **When** I enter the player's information
 * **And** The player does not already exist in the team
